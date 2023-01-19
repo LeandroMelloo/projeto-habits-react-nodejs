@@ -1,0 +1,34 @@
+npm i fastify
+npm i @fastify/cors
+npm i @prisma/client
+
+Dependencias de desenvolvimento
+npm i typescript -D
+npm i tsx -D
+npm i prisma -D
+
+comandos script
+npm run dev
+
+comando para criar um banco local SQLite
+npx prisma init --datasource-provider SQLite
+
+comando para para fazer a migração
+npx prisma migrate dev
+
+comando para abrir no browser uma interface DB
+npx prisma studio
+
+comando para criar o frontend
+npm create vite@latest
+
+Biblioteca para frontend
+npm install -D tailwindcss postcss autoprefixer
+
+comando para criar 
+
+React segue dois conceitos
+- Componente: Reaproveitar / Isolar
+- Propriedade: Uma informação enviada pra modificar um componente visual ou comportalmente
+
+
